@@ -1,6 +1,4 @@
-import React, { useState } from "react"
-import LoginForm from './components/LoginForm/LoginForm';
-import RegisterFrom from './components/RegisterForm/RegisterForm'
+import React from "react"
 import RouteService from "./routes";
 
 
@@ -9,23 +7,23 @@ function App() {
   // const [currentForm, setCurrentForm] = useState('LoginForm');
 
   // const toggleForm =(formName) => {
-      //  setCurrentForm(formName) ;
-  
+  //  setCurrentForm(formName) ;
+
 
   return (
 
     <div>
       {/* { */}
-        {/* currentForm == "LoginForm" ? <LoginForm/>: <RegisterFrom/> */}
+      {/* currentForm == "LoginForm" ? <LoginForm/>: <RegisterFrom/> */}
 
       {/* }   */}
 
-      <RouteService/>
-      
-      
-  
+      <RouteService />
+
+
+
     </div>
-     );
+  );
 }
 
 export default App;
